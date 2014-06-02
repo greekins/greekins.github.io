@@ -1,0 +1,94 @@
+/*
+ * Navigation
+ */
+
+
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+
+.container { 
+  padding-top: 70px; 
+}
+
+.navbar-inverse .navbar-nav > li.active a {
+  background-color: white;
+  color: grey;
+}
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: black;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus
+ {
+  background-color: transparent;
+  color: grey;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+  font-size: 120%;
+}
+
+/*
+ * Home wrapper
+ */
+
+.home {
+  color: black;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+/*
+ * About wrapper
+ */
+
+.about {
+  background:  url('img/stat-bg.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  color: white;
+}
+.about .overlay {
+  background: #25201f;
+  opacity: .8;
+  position: relative;
+}
+.about a,
+.about > a:hover,
+.about > a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+/*
+ * Contact wrapper
+ */
+
+.contact {
+  color: black;
+}
+.contact a,
+.contact > a:hover,
+.contact > a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
