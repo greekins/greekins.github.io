@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal;
+}
+
 /*
  * Navigation
  */
@@ -68,6 +72,16 @@
 }
 
 /*
+ * Map
+ */
+#contactmap {
+  position: absolute;
+  height: 500;
+  width: 100%;
+  z-index: 1;
+}
+
+/*
  * Contact wrapper
  */
 
@@ -81,17 +95,34 @@
   text-decoration: none;
 }
 
-/*
- * Map
- */
-#contactmap {
-        height: 50%;
-        z-index: 0;
+.contact .contactform{
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+.contact .col-md-5 {
+  background: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
+.contact .fa {
+  color: #FF714A;
+}
 
+.contact .contactform ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.contact .contactform li {
+  font-size: 15pt;
+  padding-bottom: 10px;
+}
 
-
+.contact .contactform h3 {
+  font-size: 62px;
+  font-weight: lighter;
+}
 
 
 
