@@ -19,7 +19,8 @@ function initialize() {
 	var myLatlng = new google.maps.LatLng(47.404505, 8.620196)
   var mapOptions = {
     zoom: 15,
-    center: myLatlng
+    center: myLatlng,
+    scrollwheel:false
   };
   var map = new google.maps.Map(document.getElementById('contactmap'),
       mapOptions);
