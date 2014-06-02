@@ -1,8 +1,20 @@
+
+/*
+ * Map Canvas
+ */
+
+/*img {
+  max-width: 100%;
+}
+#contactmap {
+  height: inherit;
+  width: inherit;
+}*/
+
+
 /*
  * Navigation
  */
-
-
 .navbar-inverse {
   background-color: white;
   border-color: white;
@@ -82,15 +94,7 @@
   text-decoration: none;
 }
 
-/*
- * Map Canvas
- */
 
-#map_canvas {
-    width: 100%;
-    height: 400px;
-    background-color: #CCC;
-  }
 
 
 
