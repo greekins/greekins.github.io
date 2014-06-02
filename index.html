@@ -5,13 +5,29 @@
 		<link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/main.css">
+
+		<!--Scripts-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+			<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA9s81Db4ikLL-qZa74nDLFImojzyu0trI
+&sensor=false"></script>
+			<script>
+		      function initialize() {
+		        var map_canvas = document.getElementById('map_canvas');
+		        var map_options = {
+		          center: new google.maps.LatLng(44.5403, -78.5463),
+		          zoom: 8,
+		          mapTypeId: google.maps.MapTypeId.ROADMAP
+		        }
+		        var map = new google.maps.Map(map_canvas, map_options)
+		      }
+		      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
+
 	</head>
 
 	<body data-spy="scroll" data-target="#scrollspy" data-offset="0" data-spy="scroll">
-		<!--Scripts-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 		
 		<!--Menu-->
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -89,15 +105,14 @@
 				<div class="container">
 					<section id="contact">
 						<h1 id="contact"><a name="contact" id="contact">Contact</a></h1>
-							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
-
-
- 
+							
 
 					</section>
 				</div>
 			</div> 
+			<div id="map_canvas"></div> 
 	</body>
 </html>
 
