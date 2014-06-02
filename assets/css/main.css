@@ -81,7 +81,13 @@
   text-decoration: none;
 }
 
-
+/*
+ * Map
+ */
+#contactmap {
+        height: 50%;
+        z-index: 0;
+}
 
 
 
