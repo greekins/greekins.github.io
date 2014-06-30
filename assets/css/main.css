@@ -56,8 +56,8 @@ body {
   background:  url('img/stat-bg.jpg');
   background-position: center; 
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-size: cover !important;
   background-color: white;
   color: white;
 }
