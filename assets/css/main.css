@@ -1,5 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 /*
@@ -123,7 +125,6 @@ body {
   font-size: 62px;
   font-weight: lighter;
 }
-
 
 
 
