@@ -60,7 +60,6 @@ body {
   background-size: cover;
   background-color: white;
   color: white;
-  position: fixed;
 }
 .about .overlay {
   background: #25201f;
