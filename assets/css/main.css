@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-style: normal;
+  height: 100%;
 }
 
 /*
@@ -54,7 +55,7 @@ body {
 
 .about {
   background:  url('img/stat-bg.jpg');
-  background-position: center, fixed; 
+  background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -62,6 +63,7 @@ body {
   color: white;
   height:100%;
   width:100%;
+  position: fixed;
 }
 .about .overlay {
   background: #25201f;
